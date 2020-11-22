@@ -76,14 +76,15 @@ int abc( )
         break;
         
         case (2) :
-        int sub;
+        int sub,sub1;
         sub=(a-b);
-        cout<<sub;
+        sub1=(sub-c)
+        cout<<sub1;
         break;
         
         case (3) :
         long int mul;
-        mul=(a*b);
+        mul=((a*b)*c);
         cout<<mul;
         break;
         
