@@ -48,7 +48,7 @@ int abc( )
     }
     return(0);
 }
-   /* int abc2()
+   int abc2( )
 {
     int a ,b,c;
     cout<<"enter the value of a"<<endl;
@@ -58,10 +58,14 @@ int abc( )
     cout<<"Enter the value of c"<<endl;
     cin>>c;
     
-    cout<<"The values are "<<endl "a=" a "b=" b "c="c <<endl;
+   
     int choice;
     
-    cout<<"Enter "<<endl "1.Addition"<<endl "2.subtraction"<<endl"3.multiply"<<endl"4.divide"<<endl;
+    cout<<"Enter "<<endl<<
+    "1.Addition"<<endl<<
+    "2.subtraction"<<endl<<
+    "3.multiply"<<endl<<
+    "4.divide"<<endl;
     cin>>choice;
     switch(choice)
     {
@@ -78,7 +82,7 @@ int abc( )
         break;
         
         case (3) :
-        long int add;
+        long int mul;
         mul=(a*b);
         cout<<mul;
         break;
@@ -89,10 +93,10 @@ int abc( )
         cout<<divi;
         break;
         
-        default
-        cout<<"Wrong argument"
+        default:
+        cout<<"Wrong argument";
     }
-}*/
+}
 int main(){
 int val;
 cout<<"enter number of values";
@@ -103,6 +107,6 @@ if(val==2)
 }
 else
 {
-    cout<<"Invalid";
+    abc2();
 }
 }
