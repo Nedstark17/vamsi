@@ -48,7 +48,7 @@ int abc( )
     }
     return(0);
 }
-   /* int abc2(int a , int b,int c)
+   /* int abc2()
 {
     int a ,b,c;
     cout<<"enter the value of a"<<endl;
