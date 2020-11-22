@@ -1,0 +1,108 @@
+#include<iostream>
+using namespace std;
+int abc( )
+{
+    int a ,b;
+    cout<<"enter the value of a"<<endl;
+    cin>>a;
+    cout<<"Enter the value of b"<<endl;
+    cin>>b;
+    
+    
+    int choice;
+    
+    cout<<"Enter "<<endl<<
+    "1.Addition"<<endl<<
+    "2.subtraction"<<endl<<
+    "3.multiply"<<endl<<
+    "4.divide"<<endl;
+    cin>>choice;
+    switch(choice)
+    {
+        case (1) :
+        int add;
+        add=(a+b);
+        cout<<add;
+        break;
+        
+        case (2) :
+        int sub;
+        sub=(a-b);
+        cout<<sub;
+        break;
+        
+        case (3) :
+        long int mul;
+        mul=(a*b);
+        cout<<mul;
+        break;
+        
+        case (4) :
+        int divi;
+        divi=(a/b);
+        cout<<divi;
+        break;
+        
+        default :
+        cout<<"Wrong argument";
+    }
+    return(0);
+}
+   /* int abc2(int a , int b,int c)
+{
+    int a ,b,c;
+    cout<<"enter the value of a"<<endl;
+    cin>>a;
+    cout<<"Enter the value of b"<<endl;
+    cin>>b;
+    cout<<"Enter the value of c"<<endl;
+    cin>>c;
+    
+    cout<<"The values are "<<endl "a=" a "b=" b "c="c <<endl;
+    int choice;
+    
+    cout<<"Enter "<<endl "1.Addition"<<endl "2.subtraction"<<endl"3.multiply"<<endl"4.divide"<<endl;
+    cin>>choice;
+    switch(choice)
+    {
+        case (1) :
+        int add;
+        add=(a+b+c);
+        cout<<add;
+        break;
+        
+        case (2) :
+        int sub;
+        sub=(a-b);
+        cout<<sub;
+        break;
+        
+        case (3) :
+        long int add;
+        mul=(a*b);
+        cout<<mul;
+        break;
+        
+        case (4) :
+        int divi;
+        divi=(a/b);
+        cout<<divi;
+        break;
+        
+        default
+        cout<<"Wrong argument"
+    }
+}*/
+int main(){
+int val;
+cout<<"enter number of values";
+cin>>val;
+if(val==2)
+{
+    abc( );
+}
+else
+{
+    cout<<"Invalid";
+}
+}
